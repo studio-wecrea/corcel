@@ -18,6 +18,7 @@ abstract class Meta extends Model
      * @var string
      */
     protected $primaryKey = 'meta_id';
+    protected $guarded = ['meta_id'];
 
     /**
      * @var bool

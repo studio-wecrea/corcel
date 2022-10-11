@@ -23,7 +23,7 @@ class Option extends Model
      * @var string
      */
     protected $primaryKey = 'option_id';
-
+    
     /**
      * @var bool
      */

@@ -28,6 +28,8 @@ class User extends Model implements Authenticatable, CanResetPassword
     use MetaFields;
     use OrderScopes;
 
+    protected $guarded = ['ID'];
+
     /**
      * @var string
      */

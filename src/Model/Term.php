@@ -17,6 +17,9 @@ class Term extends Model
     use MetaFields;
     use AdvancedCustomFields;
 
+    protected $guarded = ['term_id'];
+
+
     /**
      * @var string
      */

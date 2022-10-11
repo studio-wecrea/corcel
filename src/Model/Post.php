@@ -41,7 +41,7 @@ class Post extends Model
      * @var string
      */
     protected $primaryKey = 'ID';
-
+    
     /**
      * @var array
      */
@@ -61,13 +61,25 @@ class Post extends Model
      * @var array
      */
     protected $fillable = [
+        'post_author',
         'post_content',
         'post_title',
         'post_excerpt',
         'post_type',
+        'post_status',
+        'comment_status',
+        'ping_status',
+        'post_name',
         'to_ping',
         'pinged',
+        'post_modified',
+        'post_modified_gmt',
         'post_content_filtered',
+        'post_parent',
+        'guid',
+        'menu_order',
+        'post_mime_type',
+        'comment_count'
     ];
 
     /**
