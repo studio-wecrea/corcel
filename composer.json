@@ -1,14 +1,13 @@
 {
-    "name": "jgrossi/corcel",
-    "replace": { "juniorgrossi/corcel": "self.version" },
-    "description": "Use WordPress backend with Laravel or any PHP framework",
-    "homepage": "http://github.com/corcel/corcel",
+    "name": "studio-wecrea/corcel",
+    "description": "Use WordPress backend with Laravel or any PHP framework - Fork from jgrossi/corcel",
+    "homepage": "http://github.com/stodio-wecrea/corcel",
     "license": "MIT",
     "authors": [
         {
-            "name": "Junior Grossi",
-            "email": "juniorgro@gmail.com",
-            "homepage": "http://jgrossi.com"
+            "name": "wecrea",
+            "email": "hello+github@wecrea.com",
+            "homepage": "https://wecrea.com"
         }
     ],
     "require": {
