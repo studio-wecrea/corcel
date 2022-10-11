@@ -13,7 +13,7 @@ use Corcel\Model;
 class TermRelationship extends Model
 {
 
-    protected $fillable = ['object_id', 'term_taxonomy_id'];
+    protected $fillable = ['object_id', 'term_taxonomy_id','term_order'];
     /**
      * @var string
      */
