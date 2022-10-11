@@ -14,6 +14,8 @@ use Corcel\Model\Meta\TermMeta;
  */
 class Taxonomy extends Model
 {
+    protected $guarded = ['term_taxonomy_id'];
+
     /**
      * @var string
      */

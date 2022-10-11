@@ -41,6 +41,8 @@ class Post extends Model
      * @var string
      */
     protected $primaryKey = 'ID';
+    
+    protected $guarded = ['ID'];
 
     /**
      * @var array

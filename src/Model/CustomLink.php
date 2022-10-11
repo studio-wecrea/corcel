@@ -20,6 +20,8 @@ class CustomLink extends Post
      */
     protected $primaryKey = 'ID';
 
+    protected $guarded = ['ID'];
+
     /**
      * @param string $key
      * @return mixed

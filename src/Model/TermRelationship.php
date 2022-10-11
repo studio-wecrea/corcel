@@ -12,6 +12,8 @@ use Corcel\Model;
  */
 class TermRelationship extends Model
 {
+
+    protected $guarded = ['object_id', 'term_taxonomy_id'];
     /**
      * @var string
      */

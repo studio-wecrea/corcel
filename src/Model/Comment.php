@@ -31,6 +31,9 @@ class Comment extends Model
      */
     protected $primaryKey = 'comment_ID';
 
+    protected $guarded = ['comment_ID'];
+
+
     /**
      * @var array
      */
